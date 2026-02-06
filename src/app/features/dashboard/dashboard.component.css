@@ -1,0 +1,8 @@
+.dashboard-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 2.5rem auto 0 auto;
+}

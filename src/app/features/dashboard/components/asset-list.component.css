@@ -1,0 +1,131 @@
+.asset-list {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+/* Header */
+.asset-header h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.asset-header p {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 4px 0 16px;
+}
+
+/* Search */
+.asset-search {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.asset-search input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+.asset-search input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99,102,241,0.15);
+}
+
+/* Autocomplete */
+.autocomplete {
+  position: absolute;
+  top: 48px;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+  z-index: 10;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.autocomplete li {
+  padding: 10px 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.autocomplete li:hover {
+  background: #f3f4f6;
+}
+
+.autocomplete .name {
+  font-weight: 600;
+}
+
+.autocomplete .symbol {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* Table */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+thead th {
+  text-align: left;
+  padding: 12px;
+  font-weight: 600;
+  color: #6b7280;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tbody td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+tbody tr:hover {
+  background: #fafafa;
+}
+
+.asset-name {
+  font-weight: 600;
+}
+
+.asset-type {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.asset-value {
+  font-weight: 600;
+}
+
+.asset-change {
+  font-weight: 600;
+}
+
+.positive {
+  color: #16a34a;
+}
+
+.negative {
+  color: #dc2626;
+}
+
+.empty {
+  text-align: center;
+  padding: 24px;
+  color: #9ca3af;
+}

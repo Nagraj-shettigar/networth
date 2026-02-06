@@ -1,0 +1,84 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 64px;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 2px 8px rgba(60,60,120,0.06);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo {
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #222;
+}
+.logo-x {
+  color: #2ecc71;
+}
+.main-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+.main-nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+.main-nav a.active, .main-nav a:hover {
+  background: #e0f7ef;
+  color: #2ecc71;
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.search {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+.search:focus {
+  border: 1.5px solid #2ecc71;
+}
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem;
+  border-radius: 50%;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-btn:hover {
+  background: #f0f0f0;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-size: 1.6rem;
+  color: #888;
+}
+.avatar {
+  background: #2ecc71;
+  color: #fff;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
